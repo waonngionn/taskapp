@@ -4,7 +4,7 @@ body {
   position: relative;
   width: 100%;
 }
-.container{
+.container {
   width: 50%;
   position: absolute;
   left: 0;
@@ -15,20 +15,20 @@ body {
   text-align: center;
   display: inline-block;
 }
-.table_task{
+.table_task {
   width: 100%;
 }
-.tr{
+.tr {
   border: solid #989595 10px;
 }
-.td_btn{
+.td_btn {
   width: 80px;
 }
-.p_tasktitle{
+.p_tasktitle {
   font-size: 16pt;
   margin-left: 30px;
 }
-.btn{
+.btn {
   border-radius: 10px;
   width: 90px;
   display: inline-block;
@@ -39,23 +39,23 @@ body {
   text-decoration: none;
   padding-top: 5px;
 }
-.btn_create{
+.btn_create {
   width: 100px;
-  background-color: rgb(15, 185, 247);
-  border:solid #fff 1px;
+  background-color: #0fb9f7;
+  border: solid #fff 1px;
   color: #fff;
   margin-left: 15px;
   margin-bottom: 30px;
 }
-.btn_done{
+.btn_done {
   color: #989595;
-  border:solid #989595 1px;
+  border: solid #989595 1px;
 }
-.btn_edit{
+.btn_edit {
   color: #989595;
-  border:solid #989595 1px;
+  border: solid #989595 1px;
 }
-.btn_delete{
+.btn_delete {
   color: red;
-  border:solid red 1px;
+  border: solid red 1px;
 }
