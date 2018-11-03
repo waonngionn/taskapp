@@ -19,7 +19,7 @@
             <p class="text p_tasktitle">{{$task->title}}</p>
           </td>
           <td class="td_btn">
-            <a href="" class="btn btn_edit">編集</a>
+            <a href="/taskapp/public/{{$task->id}}" class="btn btn_edit">編集</a>
           </td>
           <td class="td_btn">
             <a href="" class="btn btn_delete">削除</a>

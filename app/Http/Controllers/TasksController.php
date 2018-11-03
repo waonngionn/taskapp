@@ -19,4 +19,10 @@ class TasksController extends Controller
     $tasks = $this->task->all();
     return view('tasks.index', ['tasks' => $tasks]);
   }
+
+  public function show($id)
+  {
+    $task = $this->task->where('id', $id)->first();
+    return view('tasks.show', ['task' => $task]);
+  }
 }
