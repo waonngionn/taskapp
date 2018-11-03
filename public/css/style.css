@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  position: relative;
+  width: 100%;
+}
+.container {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.text {
+  text-align: center;
+  display: inline-block;
+}
+.table_task {
+  width: 100%;
+}
+.tr {
+  border: solid #989595 10px;
+}
+.td_btn {
+  width: 80px;
+}
+.p_tasktitle {
+  font-size: 16pt;
+  margin-left: 30px;
+}
+.btn {
+  border-radius: 10px;
+  width: 90px;
+  display: inline-block;
+  height: 30px;
+  font-size: 12pt;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5px;
+}
+.btn_create {
+  width: 100px;
+  background-color: #0fb9f7;
+  border: solid #fff 1px;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.btn_done {
+  color: #989595;
+  border: solid #989595 1px;
+}
+.btn_edit {
+  color: #989595;
+  border: solid #989595 1px;
+}
+.btn_delete {
+  color: red;
+  border: solid red 1px;
+}
