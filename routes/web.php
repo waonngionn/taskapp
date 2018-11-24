@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'TasksController@index');
+
+Route::get('/show/id/{id}', 'TasksController@show')->name('id.id');

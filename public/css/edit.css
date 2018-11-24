@@ -16,47 +16,39 @@ body {
   text-align: center;
   display: inline-block;
 }
-.table_task {
-  width: 100%;
-}
-.tr {
-  border: solid #989595 10px;
-}
-.td_btn {
-  width: 80px;
-}
-.p_tasktitle {
-  font-size: 16pt;
-  margin-left: 30px;
-}
 .btn {
   border-radius: 10px;
-  width: 90px;
+  width: 180px;
+  line-height: 2.2em;
   display: inline-block;
-  height: 30px;
   font-size: 12pt;
   background-color: #fff;
   text-align: center;
   text-decoration: none;
-  padding-top: 5px;
-}
-.btn_create {
-  width: 100px;
-  background-color: #0fb9f7;
-  border: solid #fff 1px;
-  color: #fff;
   margin-left: 15px;
   margin-bottom: 30px;
 }
-.btn_done {
-  color: #989595;
-  border: solid #989595 1px;
-}
-.btn_edit {
-  color: #989595;
-  border: solid #989595 1px;
+.btn_save {
+  background-color: #0fb9f7;
+  border: solid #fff 1px;
+  color: #fff;
 }
 .btn_delete {
   color: red;
   border: solid red 1px;
+}
+.text_box {
+  border: solid #989595 1px;
+  border-radius: 7px;
+  width: 80%;
+  font-size: 18pt;
+  color: #989595;
+}
+.text_box_title {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 1.7em;
+}
+.text_box_contents {
+  height: 6em;
 }
